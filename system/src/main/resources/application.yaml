@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo
+
+aurora:
+  thread-pool:
+    core-pool-size: 4
+    max-pool-size: 8
+    queue-capacity: 100
+    thread-name-prefix: "order-biz-"
